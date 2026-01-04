@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: white;
 }
 
 .container{
@@ -8,16 +8,20 @@ body{
     color: white;
     width: 200px;
     height: 200px;
-    border: 3px solid blue;
+    border-radius: 5px;
     margin: 0px auto;
     padding: 20px;
-    box-shadow: 4px 6px 7px gray;
 }
 
 .container h1{
     font-size: 2rem;
     color: white;
     text-decoration: underline;
+}
+
+.container:hover{
+    box-shadow: 0px 6px 7px gray;
+    transition: 500ms;
 }
 
 a{
