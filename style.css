@@ -11,16 +11,20 @@ body{
     border-radius: 5px;
     margin: 0px auto;
     padding: 20px;
+    transition: 500ms;
+    overflow: auto;
 }
 
 .container h1{
     font-size: 2rem;
     color: white;
     text-decoration: underline;
+
 }
 
 .container:hover{
     box-shadow: 0px 6px 7px gray;
+    border-radius: 200px;
     transition: 500ms;
 }
 
